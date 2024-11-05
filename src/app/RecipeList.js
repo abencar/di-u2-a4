@@ -4,13 +4,12 @@ export default function RecipeList() {
   return (
     <div>
       <h1>Recetas</h1>
-      {receta(recipes)}
+      {Receta(recipes)}
     </div>
-
   );
 }
 
-export function receta(recipes){
+export function Receta(recipes){
   return (
     <div>
       {recipes.map(recipe =>
